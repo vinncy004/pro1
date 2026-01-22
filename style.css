@@ -1,0 +1,531 @@
+@media  (max-width:768px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-image:url(img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: 110vw 110vh;
+        color: black;
+        text-align: center;
+        display: none;
+      
+
+    }
+    #btnt{
+        display: none;
+    }
+    #notify-img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #notification{
+        display:none ;
+        width: 80vw;
+        height: 20vh;
+        margin-top: 40vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: rgb(241, 239, 239);
+        border: 1px solid rgb(94, 97, 97);
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        z-index: 2;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    #close-notis{
+        width: 50px;
+        height: 20px;
+        border-radius: 3px;
+        color: rgb(7, 5, 5);
+        background-color: rgb(66, 66, 158);
+    }
+    #noti-message{
+        color: black;
+        font-size: 25px;
+    }
+    #header{
+        margin-top: 0;
+        height: 40px;
+        background-color: white;
+
+    }
+    #header ul {
+        display: flex;
+       justify-content: space-between;
+       list-style-type: none;
+    }
+    #loginbtn{
+        width:70px;
+        height: 30px;
+        padding: 2px;
+        border-radius: 25px;
+        background-color: transparent;
+        color: black;
+        &:hover{
+            background-color: brown;
+            color: black;
+        }
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+     #logoimage{
+        width: 40%;
+        height: 200px;
+        border-radius: 50%;
+               
+       } 
+    #header-ul{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 10vw 40px;
+        justify-content: space-between;
+    }
+    h3{
+        color: rgb(209, 118, 252);
+        font-size: 25px;
+        
+    }
+    #icon{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+     .icon{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+   #logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   }
+    #nav-bar{
+        position: absolute;
+        top: 0;
+        display:none ;
+        width: 75vw;
+        height:99vh ;
+        background-color:rgb(7, 7, 48);
+        color: white;
+        font-size: 20px;
+        z-index: 1;
+
+    }
+    #close{
+        position: absolute;
+        top: 0;
+        margin-left: 66vw;
+        cursor: pointer;
+    }
+    #nav-bar a{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+    
+    #nav-bar ul li{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 20vw;
+        justify-content: baseline;
+        justify-items:center;
+        
+       
+    }
+    #description-header{
+        margin-top: 15vh;
+        overflow-x: auto;
+    }
+    #description-header h1{
+        font-size: 35px;
+        text-transform: uppercase;
+        color: rgb(255, 254, 254);
+        font-family: arial ,san-serif;
+    }
+     #description-header h5{
+        font-size: 15px;
+     }
+     #getstarted,#getstarted1{
+        width: 40vw;
+        height: 30px;
+        border-radius: 25px;
+        color:white;
+        background-color:rgb(47, 82, 255);
+        margin-left: 15vw;
+        font-size: 20px;
+        &:hover{
+            background-color: rgb(244, 72, 72);
+            transition: 0.5s ease-in;
+        }
+}
+
+ #getstarted a{
+        text-decoration: none;
+        font-size: 20px;
+ }
+#heads{
+    color: rgb(20, 5, 73);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#req{
+    margin-top: 30vh;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px  red;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+#req1{
+    margin-top: 5vh;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px  red;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+#req ul li{
+    display: block;
+    list-style-type: none;
+    gap:20px;
+    font-size: 22px;
+    margin-left: 5px;
+    text-transform:lowercase;
+
+}
+#contact,#term{
+    margin-top: 10vh;
+    background-color: rgb(200, 200, 200);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(112, 112, 112);
+    box-shadow: 1px 2px 1px red;
+}
+
+#email,#email1{
+    width: 90vw;
+    height: 30px;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+#text-content{
+    width: 90vw;
+    height:20vh;
+}
+#send{width: 90vw;
+    height: 30px;
+    background-color: rgb(122, 131, 128);
+    color:black;
+    font-size: 25px;
+    border-radius: 25px;
+}
+#footer{
+    background-color: rgb(130, 130, 204);
+    margin-top: 10vh;
+}
+#footer ul li{
+   display: inline-block;
+   list-style-type:none;
+   margin-right: 15vw;
+}
+#loc{
+    width: 95vw;
+    height: fit-content;
+    border:1px solid grey;
+    align-content:center ;
+    border-radius: 5px;
+}
+#loc h3{
+    color: white;
+    background-color: rgb(207, 109, 17);
+}
+#realloc,ul{
+    display: block;
+}
+#realloc,ul,li{
+    list-style-type:'>>';
+}
+
+}
+@media (width>=769px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        display: none;
+        background-image: url(img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+        color: black;
+        margin-left: 1px;
+        
+    }
+    #header{
+        display: none;
+        margin-top: 0;
+        height: 30px;
+        width: 100vw;
+        background-color: white;
+
+    }
+    h3{
+        color: rgb(91, 35, 243);
+    }
+    #header-ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 40px;
+        list-style-type: none;
+    }
+    #icon{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+     #logo{
+    display: none;
+   }
+    #nav-bar{
+      
+       
+        width: 100vw;
+        height: 30px;
+        background-color:rgb(60, 60, 207);
+        color: white;
+        font-size: large;
+       
+
+    }
+    #name1{
+        margin-left: 10vw;
+    }
+    #close{
+        display: none;
+        position: absolute;
+        top: 0;
+        margin-left: 66vw;
+    }
+    #nav-bar a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+          &:hover{
+            color: black;
+        }
+      
+    }
+    #logo{
+        margin-right: 70vw;
+    }
+    ul li{
+        list-style-type:none;
+    }
+   
+    #nav-bar ul li{
+        list-style-type:none;
+        display: inline-block;
+        margin-right: 10px;
+          &:hover{
+            background-color: white;
+        }
+        
+       
+    }
+  
+    #description-header{
+        margin-top: 5vh;
+        overflow-x: auto;
+       
+    }
+    #description-header h1{
+        font-size: 40px;
+        text-transform: uppercase;
+        color: rgb(252, 255, 253);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     #description-header h5{
+        font-size: 20px;
+     }
+     #getstarted,#btnt{
+        width: 100px;
+        height: 30px;
+        border-radius: 25px;
+        color: azure;
+        background-color: rgb(228, 103, 54);
+        margin-left:3px;
+        font-size: 20px;
+        &:hover{
+            background-color: brown;
+            transition: 0.5s ease-in;
+        }
+}
+  #getstarted1{
+        width: 38vw;
+        height: 40px;
+        border-radius: 25px;
+        color: azure;
+        background-color: rgb(228, 103, 54);
+        margin-left:30vw;
+        font-size: 20px;
+        &:hover{
+            background-color: brown;
+            transition: 0.5s ease-in;
+        }
+}
+
+ #getstarted,#getstarted1 a{
+        text-decoration: none;
+        font-size: 20px;
+ }
+ #copy{
+    display: none;
+ }
+#heads{
+    color: rgb(11, 12, 54);
+    text-decoration: none
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#req{
+    margin-top: 40vh;
+    border: 1px solid rgb(76, 76, 83);
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px  red;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+#req1{
+    margin-top: 5vh;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px  red;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+#req ul li{
+    display: block;
+    list-style-type: none;
+    gap:20px;
+    font-size: 22px;
+    margin-left: 5px;
+    text-transform: lowercase;
+
+}
+#contact{
+    margin-top: 10vh;
+    background-color: rgb(200, 200, 200);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(112, 112, 112);
+    box-shadow: 1px 2px 1px red;
+}
+
+#email,#email1{
+    width: 90vw;
+    height: 30px;
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+}
+#text-content{
+    width: 90vw;
+    height: fit-content;
+}
+#send{width: 90vw;
+    height: 30px;
+border-radius: 25px;
+}
+#footer{
+    background-color: rgb(130, 130, 204);
+    margin-top: 20vh;
+   
+}
+#footer ul{
+   display: flex;
+   justify-content: space-between;
+}
+#footer ul li{
+    list-style-type: none;
+
+}
+/*styling for signup and login pages*/
+ form{
+    margin-top: 10vh;
+    width: 98vw;
+    margin-left: 5px;
+ }
+ input{
+    margin-left: 5px;
+    width: 90vw;
+    height: 30px;
+ }
+ #registerbtn{
+     width: 90vw;
+    height: 30px;
+    background-color: rgb(223, 65, 25);
+    color: azure;
+    margin-left: 5px;
+ }
+#alink{
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+ }
+ legend{
+    font-size: 20px;
+   
+ }
+ #tc{
+    width:20px;
+    height: 20px;
+ }
+ #loc{
+    width: 80vw;
+    height: fit-content;
+    border:1px solid grey;
+}
+#loc h3{
+    color: white;
+    background-color: rgb(241, 166, 25);
+}
+#realloc,ul{
+    display: block;
+}
+#realloc,ul,li{
+    list-style-type:'none';
+}
+}
+
