@@ -9,7 +9,7 @@
         background-size: 110vw 110vh;
         color: black;
         text-align: center;
-        display: none;
+       
       
 
     }
@@ -278,7 +278,7 @@
         margin: 0;
     }
     body{
-        display: none;
+       
         background-image: url(img/background.jpg);
         background-repeat: no-repeat;
         background-size: 100vw 100vh;

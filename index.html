@@ -16,12 +16,10 @@
         color: black;
        
        } 
-       #form,#footer{
-        display: none;
-       }
+     
        /*styling for signup and login pages*/
  form{
-    display: none;
+   
     margin-top: 10vh;
     width: 90vw;
     margin-left:20px;
@@ -237,7 +235,7 @@
 
    
       }
-       #form,#logo,#description,#logoimage,#footer{
+       #logo,#description,#logoimage{
          display: none;
        }
        #footer{
@@ -288,6 +286,9 @@
             color: grey;
         }
       }
+      #form{
+        display: none;
+      }
       #check{
         width: 15px;
         height: 15px;
@@ -332,7 +333,7 @@
             <br>
             <span id="pass-success"></span><br>
             <br>
-            <input type="checkbox" name="" id="check" checked>by login in means you accept our <a href="term.html">T&C</a>
+            <input type="checkbox" name="" id="check" checked>by loging in means you accept our <a href="term.html">T&C</a>
             <br>
             <span id="location" style="color:blue;"></span><br><br>
 
@@ -355,23 +356,23 @@
         </li>
         <li>
              
-    <form action="" method="post" id="form">
+    <form action="" method="post">
             <br>
             <span id="location"></span>
             <br>
             <label for="email">enter email :</label>
             <br><br>
-            <input type="email"  id="email" placeholder="enter email e.g (abc@gmail.com)"  required>
+            <input type="email"  id="email" placeholder="enter email e.g (abc@gmail.com)" autocomplete="off" required>
             <br><br>
              
             <label for="passwpord">enter password:</label>
             <br><br>
-            <input type="password"  id="pass" placeholder="enter your password"  required>
+            <input type="password"  id="pass" placeholder="enter your password" autocomplete="off" required>
       
             <br><br>
             <span id="pass-success"></span><br>
             <br>
-            <input type="checkbox" name="" id="check" checked>by login in means you accept our <a href="term.html">T&C</a>
+            <input type="checkbox" name="" id="check" checked>by loging in means you accept our <a href="term.html">T&C</a>
             <br>
             <span id="location" style="color:blue;"></span>
             <br><br>
@@ -403,7 +404,7 @@
    
     
    </div>
-   <center><h2 style="color: red;">sorry! these site is under maintainance</h2></center>
+   
  <script>
           
    function valid(){
